@@ -1,0 +1,7 @@
+ext.library = [
+    swagger: [
+            [ group: "io.swagger", name: "swagger-annotations", version: "1.5.3" ],
+            [ group: "io.swagger", name: "swagger-core", version: "1.5.3" ],
+            [ group: "io.swagger", name: "swagger-jaxrs", version: "1.5.3" ]
+    ]
+]
