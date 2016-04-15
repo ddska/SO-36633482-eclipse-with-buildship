@@ -7,6 +7,13 @@ configurations {
     providedCompile
 }
 
+sourceSets {
+    main {
+        compileClasspath += configurations.providedCompile
+        runtimeClasspath += configurations.providedCompile
+    }
+}
+
 dependencies {
     providedCompile library.swagger
 }
